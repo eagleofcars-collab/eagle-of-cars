@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FeedbackButton from "@/components/FeedbackButton";
+import FeedbackButton from "../components/FeedbackButton";
 
 const values = [
   ["Persoonlijk contact", "Geen callcenter, maar rechtstreeks contact."],
