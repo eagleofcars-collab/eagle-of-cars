@@ -239,15 +239,21 @@ export default function HomePage() {
             </address>
           </div>
 
-         <form
+        <form
   className="contact-form"
-  action="mailto:eagleofcars@gmail.com"
-  method="post"
-  encType="text/plain"
+  action="https://formsubmit.co/eagleofcars@gmail.com"
+  method="POST"
 >
-  <div className="form-row">
-              <label>
-                Naam
+  <input
+    type="hidden"
+    name="_subject"
+    value="Nieuwe aanvraag via Eagle of Cars"
+  />
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_template" value="table" />
+<div className="form-row">
+  <label>
+                  Naam
                 <input type="text" name="Naam" placeholder="Jouw naam" required />
               </label>
               <label>
