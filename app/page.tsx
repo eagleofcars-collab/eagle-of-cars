@@ -239,20 +239,24 @@ export default function HomePage() {
             </address>
           </div>
 
-          <form className="contact-form">
+          <form
+  className="contact-form"
+  action="mailto:eagleofcars@gmail.com"
+  method="post"
+  encType="text/plain"
             <div className="form-row">
               <label>
                 Naam
-                <input type="text" placeholder="Jouw naam" />
+                <input type="text" name="Naam" placeholder="Jouw naam" required />
               </label>
               <label>
                 Telefoonnummer
-                <input type="tel" placeholder="06..." />
+                <input type="tel" name="Telefoonnummer" placeholder="06..." required />
               </label>
             </div>
             <label>
               Onderwerp
-              <select defaultValue="Algemene vraag">
+              <select name="Onderwerp" defaultValue="Algemene vraag">
                 <option>Algemene vraag</option>
                 <option>Transportaanvraag</option>
                 <option>Vraag over een occasion</option>
@@ -261,11 +265,14 @@ export default function HomePage() {
             </label>
             <label>
               Bericht
-              <textarea placeholder="Vertel ons waarmee we kunnen helpen..." />
+             <textarea
+  name="Bericht"
+  placeholder="Vertel ons waarmee we kunnen helpen..."
+  required
             </label>
-            <button className="button button-gold" type="button">
-              Verstuur aanvraag
-            </button>
+            <button className="button button-gold" type="submit">
+  Verstuur aanvraag
+</button>
           </form>
         </div>
       </section>
