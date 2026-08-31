@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FeedbackButton from "../components/FeedbackButton";
+
 
 const values = [
   ["Persoonlijk contact", "Geen callcenter, maar rechtstreeks contact."],
@@ -278,7 +278,7 @@ export default function HomePage() {
         </div>
       </footer>
 
-      <FeedbackButton />
+      
     </main>
   );
 }
