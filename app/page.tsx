@@ -29,10 +29,10 @@ const projects = [
   },
 ];
 
-export default function HomePage() {
+export default function HomePage () {
   return (
     <main>
-      <header className="site-header">
+          <header className="site-header">
         <a className="brand" href="#home" aria-label="Eagle of Cars home">
           <Image src="/images/logo.jpeg" alt="Eagle of Cars" width={68} height={68} />
           <div>
