@@ -239,12 +239,13 @@ export default function HomePage() {
             </address>
           </div>
 
-          <form
+         <form
   className="contact-form"
   action="mailto:eagleofcars@gmail.com"
   method="post"
   encType="text/plain"
-            <div className="form-row">
+>
+  <div className="form-row">
               <label>
                 Naam
                 <input type="text" name="Naam" placeholder="Jouw naam" required />
