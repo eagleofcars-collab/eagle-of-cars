@@ -214,7 +214,7 @@ export default function HomePage() {
 <section className="section shell" id="contact">
   <div className="contact-premium-grid">
   <div className="contact-premium-info">
-    <p className="contact-kicker">CONTACT</p>
+   
 
   <h2 className="contact-title">CONTACT</h2>
 
