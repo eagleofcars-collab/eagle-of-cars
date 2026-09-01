@@ -263,14 +263,17 @@ export default function HomePage() {
                 <option>Auto verkopen</option>
               </select>
             </label>
-            <label>
-              Bericht
-              <textarea placeholder="Vertel ons waarmee we kunnen helpen..." />
-            </label>
-            <button className="button button-gold" type="submit"
-              Verstuur aanvraag
-            </button>
-          </form>
+           <label>
+  Bericht
+  <textarea placeholder="Vertel ons waarmee we kunnen helpen..." />
+</label>
+
+<input
+  className="button button-gold"
+  type="submit"
+  value="Verstuur aanvraag"
+/>
+</form>
         </div>
       </section>
 
