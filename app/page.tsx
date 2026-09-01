@@ -251,16 +251,26 @@ export default function HomePage() {
     value="https://eagle-of-cars.vercel.app/#contact"
   />
 
-  <div className="form-row">
-              <label>
-                Naam
-                <input type="text" name="Naam" placeholder="Jouw naam" />
-              </label>
-              <label>
-                Telefoonnummer
-                <input type="tel" name="Telefoonnummer" placeholder="06..." />
-              </label>
-            </div>
+ <div className="form-row">
+  <label>
+    Naam
+    <input type="text" name="Naam" placeholder="Jouw naam" />
+  </label>
+  <label>
+    Telefoonnummer
+    <input type="tel" name="Telefoonnummer" placeholder="06..." />
+  </label>
+</div>
+
+<label>
+  E-mailadres
+  <input
+    type="email"
+    name="email"
+    placeholder="jouw@email.nl"
+    required
+  />
+</label>
             <label>
               Onderwerp
               <select name="Onderwerp" defaultValue="Algemene vraag">
