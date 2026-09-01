@@ -270,11 +270,13 @@ export default function HomePage() {
       Bedrijvenpark Twente Noord 103<br />
       7602 KS Aadorp
     </address>
-  </div>
+   </div>
 </div>
 
-  <form
-    className="contact-form contact-form-premium"
+</div>
+
+<form
+  className="contact-form contact-form-premium"
     action="https://formsubmit.co/eagleofcars@gmail.com"
     method="POST"
   >
