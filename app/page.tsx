@@ -248,7 +248,7 @@ export default function HomePage() {
   <input
     type="hidden"
     name="_next"
-    value="https://eagle-of-cars.vercel.app/#contact"
+    value="https://eagle-of-cars.vercel.app/bedankt"
   />
 
  <div className="form-row">
