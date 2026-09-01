@@ -251,24 +251,27 @@ export default function HomePage() {
       </div>
     </div>
 
-    <div className="contact-details-box">
-      <div>
-        <span className="contact-detail-label">Bellen kan ook</span>
-        <a href="tel:+31627572176">06 27 57 21 76</a>
-      </div>
+   <div className="contact-details-box">
+  <div>
+    <span className="contact-detail-label">Bel ons</span>
+    <a href="tel:+31627572176">06 27 57 21 76</a>
+  </div>
 
-      <div>
-        <span className="contact-detail-label">E-mail</span>
-        <a href="mailto:eagleofcars@gmail.com">
-          eagleofcars@gmail.com
-        </a>
-      </div>
-    </div>
+  <div>
+    <span className="contact-detail-label">E-mail</span>
+    <a href="mailto:eagleofcars@gmail.com">
+      eagleofcars@gmail.com
+    </a>
+  </div>
 
+  <div>
+    <span className="contact-detail-label">Bezoekadres</span>
     <address className="contact-address">
-      Bedrijvenpark Twente Noord 103 · 7602 KS Aadorp
+      Bedrijvenpark Twente Noord 103<br />
+      7602 KS Aadorp
     </address>
   </div>
+</div>
 
   <form
     className="contact-form contact-form-premium"
