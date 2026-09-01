@@ -239,7 +239,11 @@ export default function HomePage() {
             </address>
           </div>
 
-          <form className="contact-form">
+          <form
+  className="contact-form"
+  action="https://formsubmit.co/eagleofcars@gmail.com"
+  method="POST"
+>
             <div className="form-row">
               <label>
                 Naam
