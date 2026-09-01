@@ -267,7 +267,7 @@ export default function HomePage() {
               Bericht
               <textarea placeholder="Vertel ons waarmee we kunnen helpen..." />
             </label>
-            <button className="button button-gold" type="button">
+            <button className="button button-gold" type="submit"
               Verstuur aanvraag
             </button>
           </form>
