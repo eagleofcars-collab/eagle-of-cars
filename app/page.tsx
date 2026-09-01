@@ -211,14 +211,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section shell" id="contact">
-        <div className="section-heading">
-          <div>
-            <span className="eyebrow">Neem contact op</span>
-            <h2>Persoonlijk contact, duidelijke afspraken.</h2>
-          </div>
-          
-        </div>
+     
 
         <div className="contact-premium-grid">
   <div className="contact-premium-info">
