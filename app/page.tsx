@@ -245,6 +245,11 @@ export default function HomePage() {
   method="POST"
 >
   <input type="hidden" name="_subject" value="Nieuwe aanvraag via Eagle of Cars" />
+  <input
+    type="hidden"
+    name="_next"
+    value="https://eagle-of-cars.vercel.app/#contact"
+  />
 
   <div className="form-row">
               <label>
