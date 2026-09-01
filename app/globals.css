@@ -435,3 +435,8 @@ footer { padding-block: 36px; color: #8d8982; border-top: 1px solid var(--border
 .contact-details-box a:hover {
   color: var(--gold);
 }
+/* Contact titel iets verfijnder */
+.contact-title {
+  font-size: clamp(3.8rem, 6vw, 6.5rem);
+  line-height: 0.95;
+}
