@@ -223,74 +223,147 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="contact-grid">
-          <div className="contact-card">
-            <Image src="/images/logo.jpeg" alt="" width={160} height={160} />
-            <h3>Eagle of Cars</h3>
-            <p>
-              Je krijgt rechtstreeks contact. Geen callcenter en geen onnodige
-              tussenstappen.
-            </p>
-            <address>
-              Bedrijvenpark Twente Noord 103<br />
-              7602 KS Aadorp<br />
-              <a href="tel:+31627572176">06 27 57 21 76</a><br />
-              <a href="mailto:eagleofcars@gmail.com">eagleofcars@gmail.com</a>
-            </address>
-          </div>
+        <div className="contact-premium-grid">
+  <div className="contact-premium-info">
+    <p className="contact-kicker">CONTACT</p>
 
-          <form
-  className="contact-form"
-  action="https://formsubmit.co/eagleofcars@gmail.com"
-  method="POST"
->
-  <input type="hidden" name="_subject" value="Nieuwe aanvraag via Eagle of Cars" />
-  <input
-    type="hidden"
-    name="_next"
-    value="https://eagle-of-cars.vercel.app/bedankt"
-  />
+    <h2>
+      Direct in contact
+      <br />
+      <span>met Eagle of Cars</span>
+    </h2>
 
- <div className="form-row">
-  <label>
-    Naam
-    <input type="text" name="Naam" placeholder="Jouw naam" />
-  </label>
-  <label>
-    Telefoonnummer
-    <input type="tel" name="Telefoonnummer" placeholder="06..." />
-  </label>
+    <p className="contact-intro">
+      Vul het formulier in en we nemen zo snel mogelijk persoonlijk
+      contact met je op.
+    </p>
+
+    <div className="contact-benefits">
+      <div className="contact-benefit">
+        <div className="contact-benefit-icon">◇</div>
+        <div>
+          <h3>Persoonlijk &amp; direct</h3>
+          <p>Je hebt direct contact met ons.</p>
+        </div>
+      </div>
+
+      <div className="contact-benefit">
+        <div className="contact-benefit-icon">✓</div>
+        <div>
+          <h3>Betrouwbaar &amp; transparant</h3>
+          <p>Eerlijke informatie en duidelijke afspraken.</p>
+        </div>
+      </div>
+
+      <div className="contact-benefit">
+        <div className="contact-benefit-icon">★</div>
+        <div>
+          <h3>Met oog voor kwaliteit</h3>
+          <p>Wij staan voor service en vakmanschap.</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="contact-details-box">
+      <div>
+        <span className="contact-detail-label">Bellen kan ook</span>
+        <a href="tel:+31627572176">06 27 57 21 76</a>
+      </div>
+
+      <div>
+        <span className="contact-detail-label">E-mail</span>
+        <a href="mailto:eagleofcars@gmail.com">
+          eagleofcars@gmail.com
+        </a>
+      </div>
+    </div>
+
+    <address className="contact-address">
+      Bedrijvenpark Twente Noord 103 · 7602 KS Aadorp
+    </address>
+  </div>
+
+  <form
+    className="contact-form contact-form-premium"
+    action="https://formsubmit.co/eagleofcars@gmail.com"
+    method="POST"
+  >
+    <input
+      type="hidden"
+      name="_subject"
+      value="Nieuwe aanvraag via Eagle of Cars"
+    />
+
+    <input
+      type="hidden"
+      name="_next"
+      value="https://eagle-of-cars.vercel.app/bedankt"
+    />
+
+    <div className="contact-form-heading">
+      <h3>Stuur ons een bericht</h3>
+      <span></span>
+    </div>
+
+    <div className="form-row">
+      <label>
+        Naam
+        <input
+          type="text"
+          name="Naam"
+          placeholder="Je naam"
+          required
+        />
+      </label>
+
+      <label>
+        E-mailadres
+        <input
+          type="email"
+          name="email"
+          placeholder="Je e-mailadres"
+          required
+        />
+      </label>
+    </div>
+
+    <div className="form-row">
+      <label>
+        Telefoonnummer
+        <input
+          type="tel"
+          name="Telefoonnummer"
+          placeholder="Je telefoonnummer"
+        />
+      </label>
+
+      <label>
+        Onderwerp
+        <select name="Onderwerp" defaultValue="Algemene vraag">
+          <option>Algemene vraag</option>
+          <option>Transportaanvraag</option>
+          <option>Vraag over een occasion</option>
+          <option>Auto verkopen</option>
+        </select>
+      </label>
+    </div>
+
+    <label>
+      Bericht
+      <textarea
+        name="Bericht"
+        placeholder="Vertel ons waar we je mee kunnen helpen..."
+        required
+      />
+    </label>
+
+    <input
+      className="button button-gold contact-submit"
+      type="submit"
+      value="Verstuur bericht"
+    />
+  </form>
 </div>
-
-<label>
-  E-mailadres
-  <input
-    type="email"
-    name="email"
-    placeholder="jouw@email.nl"
-    required
-  />
-</label>
-            <label>
-              Onderwerp
-              <select name="Onderwerp" defaultValue="Algemene vraag">
-                <option>Algemene vraag</option>
-                <option>Transportaanvraag</option>
-                <option>Vraag over een occasion</option>
-                <option>Auto verkopen</option>
-              </select>
-            </label>
-           <label>
-  Bericht
-  <textarea name="Bericht" placeholder="Vertel ons waarmee we kunnen helpen..." />
-</label>
-
-<input
-  className="button button-gold"
-  type="submit"
-  value="Verstuur aanvraag"
-/>
-</form>
         </div>
       </section>
 
