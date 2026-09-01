@@ -247,16 +247,16 @@ export default function HomePage() {
             <div className="form-row">
               <label>
                 Naam
-                <input type="text" placeholder="Jouw naam" />
+                <input type="text" name="Naam" placeholder="Jouw naam" />
               </label>
               <label>
                 Telefoonnummer
-                <input type="tel" placeholder="06..." />
+                <input type="tel" name="Telefoonnummer" placeholder="06..." />
               </label>
             </div>
             <label>
               Onderwerp
-              <select defaultValue="Algemene vraag">
+              <select name="Onderwerp" defaultValue="Algemene vraag">
                 <option>Algemene vraag</option>
                 <option>Transportaanvraag</option>
                 <option>Vraag over een occasion</option>
@@ -265,7 +265,7 @@ export default function HomePage() {
             </label>
            <label>
   Bericht
-  <textarea placeholder="Vertel ons waarmee we kunnen helpen..." />
+  <textarea name="Bericht" placeholder="Vertel ons waarmee we kunnen helpen..." />
 </label>
 
 <input
