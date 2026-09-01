@@ -216,16 +216,16 @@ export default function HomePage() {
   <div className="contact-premium-info">
     <p className="contact-kicker">CONTACT</p>
 
-    <h2>
-      Direct in contact
-      <br />
-      <span>met Eagle of Cars</span>
-    </h2>
+   <h2>
+  Persoonlijk. Duidelijk.
+  <br />
+  <span>Betrouwbaar.</span>
+</h2>
 
-    <p className="contact-intro">
-      Vul het formulier in en we nemen zo snel mogelijk persoonlijk
-      contact met je op.
-    </p>
+<p className="contact-intro">
+  Vul het formulier in of neem rechtstreeks contact met ons op.
+  We reageren zo snel mogelijk.
+</p>
 
     <div className="contact-benefits">
       <div className="contact-benefit">
