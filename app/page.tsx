@@ -215,12 +215,9 @@ export default function HomePage() {
         <div className="section-heading">
           <div>
             <span className="eyebrow">Neem contact op</span>
-            <h2>Waarmee kunnen we helpen?</h2>
+            <h2>Persoonlijk contact, duidelijke afspraken.</h2>
           </div>
-          <p>
-            In de volgende ontwikkelstap koppelen we dit formulier aan jouw
-            e-mailadres.
-          </p>
+          
         </div>
 
         <div className="contact-premium-grid">
