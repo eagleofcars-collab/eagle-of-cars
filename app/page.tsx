@@ -29,10 +29,10 @@ const projects = [
   },
 ];
 
-export default function HomePage () {
+export default function HomePage() {
   return (
     <main>
-          <header className="site-header">
+      <header className="site-header">
         <a className="brand" href="#home" aria-label="Eagle of Cars home">
           <Image src="/images/logo.jpeg" alt="Eagle of Cars" width={68} height={68} />
           <div>
@@ -239,31 +239,20 @@ export default function HomePage () {
             </address>
           </div>
 
-        <form
-  className="contact-form"
-  action="https://formsubmit.co/eagleofcars@gmail.com"
-  method="POST"
->
-  <input
-    type="hidden"
-    name="_subject"
-    value="Nieuwe aanvraag via Eagle of Cars"
-  />
-  <input type="hidden" name="_captcha" value="false" />
-  <input type="hidden" name="_template" value="table" />
-<div className="form-row">
-  <label>
-                  Naam
-                <input type="text" name="Naam" placeholder="Jouw naam" required />
+          <form className="contact-form">
+            <div className="form-row">
+              <label>
+                Naam
+                <input type="text" placeholder="Jouw naam" />
               </label>
               <label>
                 Telefoonnummer
-                <input type="tel" name="Telefoonnummer" placeholder="06..." required />
+                <input type="tel" placeholder="06..." />
               </label>
             </div>
             <label>
               Onderwerp
-              <select name="Onderwerp" defaultValue="Algemene vraag">
+              <select defaultValue="Algemene vraag">
                 <option>Algemene vraag</option>
                 <option>Transportaanvraag</option>
                 <option>Vraag over een occasion</option>
@@ -272,14 +261,11 @@ export default function HomePage () {
             </label>
             <label>
               Bericht
-             <textarea
-  name="Bericht"
-  placeholder="Vertel ons waarmee we kunnen helpen..."
-  required
+              <textarea placeholder="Vertel ons waarmee we kunnen helpen..." />
             </label>
-            <button className="button button-gold" type="submit">
-  Verstuur aanvraag
-</button>
+            <button className="button button-gold" type="button">
+              Verstuur aanvraag
+            </button>
           </form>
         </div>
       </section>
