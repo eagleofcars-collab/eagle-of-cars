@@ -244,7 +244,9 @@ export default function HomePage() {
   action="https://formsubmit.co/eagleofcars@gmail.com"
   method="POST"
 >
-            <div className="form-row">
+  <input type="hidden" name="_subject" value="Nieuwe aanvraag via Eagle of Cars" />
+
+  <div className="form-row">
               <label>
                 Naam
                 <input type="text" name="Naam" placeholder="Jouw naam" />
