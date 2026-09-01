@@ -218,9 +218,7 @@ export default function HomePage() {
 
   <h2 className="contact-title">CONTACT</h2>
 
-<p className="contact-tagline">
-  Persoonlijk. Duidelijk. Betrouwbaar.
-</p>
+
 
 <p className="contact-intro">
   Vul het formulier in of neem rechtstreeks contact met ons op.
