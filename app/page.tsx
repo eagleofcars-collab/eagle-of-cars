@@ -197,7 +197,7 @@ export default function HomePage() {
           <h2>Een merk met een persoonlijk gezicht.</h2>
          <p>
   Eagle of Cars staat voor persoonlijke service, duidelijke afspraken en
-  aandacht voor iedere auto. Of het nu gaat om de aankoop van een occasion
+  aandacht voor iedere opdracht. Of het nu gaat om de aankoop van een occasion
   of professioneel transport: kwaliteit en vertrouwen staan voorop.
 </p>
           <blockquote>
