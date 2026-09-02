@@ -164,7 +164,7 @@ export default function HomePage() {
         <div className="section-heading">
           <div>
             <span className="eyebrow">Onderweg met Eagle</span>
-            <h2>Echte opdrachten. Echte verhalen.</h2>
+           <h2>Echte opdrachten. Zorgvuldig vervoerd.</h2>
           </div>
           <p>
             Deze sectie groeit uit tot een levend portfolio van bijzondere
