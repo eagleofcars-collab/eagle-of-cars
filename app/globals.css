@@ -196,7 +196,10 @@ p { color: var(--muted); }
 .story-photo { min-height: 520px; position: relative; overflow: hidden; border-radius: 28px; border: 1px solid var(--border); }
 .story-photo img { object-fit: cover; object-position: center 28%; }
 .story-copy { padding: 48px; border: 1px solid var(--border); border-radius: 28px; background: #111; }
-.story-copy h2 { margin: 8px 0 20px; }
+.story-copy h2 {
+  margin: 8px 0 20px;
+  font-size: clamp(2.5rem, 4vw, 4.2rem);
+}
 .story-copy blockquote { margin: 28px 0; font-family: var(--font-heading), Georgia, serif; font-size: 1.8rem; color: #eee; }
 .contact-grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: 24px; }
 .contact-card, .contact-form { padding: 34px; border: 1px solid var(--border); border-radius: 24px; background: rgba(255,255,255,.035); }
