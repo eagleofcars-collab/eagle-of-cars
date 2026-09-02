@@ -195,20 +195,16 @@ export default function HomePage() {
         <div className="story-copy">
           <span className="eyebrow">Achter Eagle of Cars</span>
           <h2>Een merk met een persoonlijk gezicht.</h2>
-          <p>
-            Mijn doel is dat klanten zich op hun gemak voelen, goede service
-            ervaren en weten met wie ze zaken doen. Eagle of Cars moet bekend
-            worden om zowel autoverkoop als professioneel transport.
-          </p>
+         <p>
+  Eagle of Cars staat voor persoonlijke service, duidelijke afspraken en
+  aandacht voor iedere auto. Of het nu gaat om de aankoop van een occasion
+  of professioneel transport: kwaliteit en vertrouwen staan voorop.
+</p>
           <blockquote>
             Albanese trots, doorzettingsvermogen en moed, gecombineerd met
             Nederlandse nuchterheid, eerlijkheid en betrouwbaarheid.
           </blockquote>
-          <p>
-            In een latere fotoshoot vervangen we deze foto door een tijdloos
-            portret in de definitieve Eagle of Cars-stijl.
-          </p>
-        </div>
+           </div>
       </section>
 
 <section className="section shell" id="contact">
